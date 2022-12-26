@@ -40,7 +40,7 @@ body {
     position: relative;
 }
 
-h2 {
+h1 {
     color: var(--neonGreen);
     font-variant: small-caps;
     letter-spacing: 2.5px;
