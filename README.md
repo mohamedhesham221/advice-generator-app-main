@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screencapture.png)
+![](./dist/images/screencapture.png)
 
 ### Links
 
@@ -51,13 +51,21 @@ i learned how to fetch data from api using async function, fetch method.
 To see how you can add code snippets, see below:
 
 ```js
-const res = await fetch("https://api.adviceslip.com/advice")
+const name = async function () {
+    const res = await fetch("API");
+    try {
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        console.log(error);
+    }
+}
 ```
 
 ### Useful resources
 
 - [Asynchronous Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - This helped me for understanding how to use async functions
-- [Fetch Method](https://developer.mozilla.org/en-US/docs/Web/API/fetch) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Fetch Method](https://developer.mozilla.org/en-US/docs/Web/API/fetch) - This is an amazing article which helped me finally understand Fetch Method. 
 
 
 ## Author
