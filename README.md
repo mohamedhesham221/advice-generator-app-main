@@ -52,7 +52,7 @@ To see how you can add code snippets, see below:
 
 ```js
 async function name () {
-    const res = await fetch("API");
+    const res = await fetch("url");
     try {
         const data = await res.json();
         return data;
@@ -67,6 +67,7 @@ async function name () {
 - [Asynchronous Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - This helped me for understanding how to use async functions
 - [Fetch Method](https://developer.mozilla.org/en-US/docs/Web/API/fetch) - This is an amazing article which helped me finally understand Fetch Method.
 - [Advice Slip JSON API](https://api.adviceslip.com/) - this helped to get random advice and  Advice is cached for 2 seconds. Any repeat-request within 2 seconds will return the same piece of advice.
+- [Referrer and cache control APIs for fetch](https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/) - This is an amazing article which helped me control http request. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
