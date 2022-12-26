@@ -51,7 +51,7 @@ i learned how to fetch data from api using async function, fetch method.
 To see how you can add code snippets, see below:
 
 ```js
-const name = async function () {
+async function name () {
     const res = await fetch("API");
     try {
         const data = await res.json();
@@ -65,7 +65,8 @@ const name = async function () {
 ### Useful resources
 
 - [Asynchronous Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - This helped me for understanding how to use async functions
-- [Fetch Method](https://developer.mozilla.org/en-US/docs/Web/API/fetch) - This is an amazing article which helped me finally understand Fetch Method. 
+- [Fetch Method](https://developer.mozilla.org/en-US/docs/Web/API/fetch) - This is an amazing article which helped me finally understand Fetch Method.
+- [Advice Slip JSON API](https://api.adviceslip.com/) - this helped to get random advice and  Advice is cached for 2 seconds. Any repeat-request within 2 seconds will return the same piece of advice.
 
 
 ## Author

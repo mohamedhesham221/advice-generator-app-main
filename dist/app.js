@@ -3,7 +3,7 @@ let btn = document.getElementById("btn"),
     advice = document.getElementById("advice");
 
     // async function to fetch data from api ("https://api.adviceslip.com/advice")
-const getAdvice = async function () {
+async function getAdvice () {
     const res = await fetch("https://api.adviceslip.com/advice");
     try {
         const data = await res.json();
